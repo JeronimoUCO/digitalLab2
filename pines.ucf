@@ -1,0 +1,21 @@
+#Definicion de pines de entrada
+NET "datos[0]" LOC =P9;
+NET "datos[1]" LOC =R9;
+NET "datos[2]" LOC =T7;
+NET "datos[3]" LOC =T6;
+
+#Definicion de habilitador de display
+NET "an[0]" LOC =M11;
+NET "an[1]" LOC =P11;
+NET "an[2]" LOC =M10;
+NET "an[3]" LOC =M9;
+
+#Definicion pines display 7 seg
+NET "segmentos[0]" LOC =N9;
+NET "segmentos[1]" LOC =L10;
+NET "segmentos[2]" LOC =M7;
+NET "segmentos[3]" LOC =N6;
+NET "segmentos[4]" LOC =L7;
+NET "segmentos[5]" LOC =P8;
+NET "segmentos[6]" LOC =P7;
+NET "segmentos[7]" LOC =N8;

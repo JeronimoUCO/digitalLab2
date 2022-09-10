@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/Maria/Desktop/Codigo/Logica digital/deodificadorBCD/bcd_prueba.xst" -ofn "C:/Users/Maria/Desktop/Codigo/Logica digital/deodificadorBCD/bcd_prueba.syr" 
+xst -intstyle ise -ifn "C:/Users/Maria/Desktop/Codigo/Logica digital/deodificadorBCD/bcd_prueba.xst" -ofn "C:/Users/Maria/Desktop/Codigo/Logica digital/deodificadorBCD/bcd_prueba.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "bcd_prueba.ngc" bcd_prueba.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o bcd_prueba_map.ncd bcd_prueba.ngd bcd_prueba.pcf 
+par -w -intstyle ise -ol high -mt off bcd_prueba_map.ncd bcd_prueba.ncd bcd_prueba.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml bcd_prueba.twx bcd_prueba.ncd -o bcd_prueba.twr bcd_prueba.pcf 
+bitgen -intstyle ise -f bcd_prueba.ut bcd_prueba.ncd 

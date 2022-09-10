@@ -1,0 +1,83 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml bcd_prueba.twx bcd_prueba.ncd -o bcd_prueba.twr
+bcd_prueba.pcf
+
+Design file:              bcd_prueba.ncd
+Physical constraint file: bcd_prueba.pcf
+Device,package,speed:     xc6slx9,ftg256,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+datos<0>       |segmentos<0>   |    6.580|
+datos<0>       |segmentos<1>   |    6.719|
+datos<0>       |segmentos<2>   |    6.664|
+datos<0>       |segmentos<3>   |    6.515|
+datos<0>       |segmentos<4>   |    6.294|
+datos<0>       |segmentos<5>   |    6.282|
+datos<0>       |segmentos<6>   |    6.426|
+datos<1>       |segmentos<0>   |    6.697|
+datos<1>       |segmentos<1>   |    6.977|
+datos<1>       |segmentos<2>   |    6.676|
+datos<1>       |segmentos<3>   |    6.773|
+datos<1>       |segmentos<4>   |    6.563|
+datos<1>       |segmentos<5>   |    6.399|
+datos<1>       |segmentos<6>   |    6.438|
+datos<1>       |segmentos<7>   |    6.965|
+datos<2>       |segmentos<0>   |    6.929|
+datos<2>       |segmentos<1>   |    7.568|
+datos<2>       |segmentos<2>   |    7.192|
+datos<2>       |segmentos<3>   |    7.364|
+datos<2>       |segmentos<4>   |    7.019|
+datos<2>       |segmentos<5>   |    6.631|
+datos<2>       |segmentos<6>   |    6.954|
+datos<2>       |segmentos<7>   |    7.421|
+datos<3>       |segmentos<0>   |    7.012|
+datos<3>       |segmentos<1>   |    7.049|
+datos<3>       |segmentos<2>   |    7.303|
+datos<3>       |segmentos<3>   |    6.845|
+datos<3>       |segmentos<4>   |    6.675|
+datos<3>       |segmentos<5>   |    6.714|
+datos<3>       |segmentos<6>   |    7.065|
+datos<3>       |segmentos<7>   |    7.077|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Sep 09 18:24:46 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4548 MB
+
+
+

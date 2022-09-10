@@ -1,0 +1,2 @@
+vhdl isim_temp "bcd_prueba.vhd"
+vhdl isim_temp "prueba_decodificador.vhd"

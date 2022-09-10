@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Maria\Desktop\Codigo\Logica digital\deodificadorBCD\bcd_prueba.ncd
+OUTFILE=C:\Users\Maria\Desktop\Codigo\Logica digital\deodificadorBCD\bcd_prueba.bit
+FAMILY=Spartan6
+PART=xc6slx9-3ftg256
+WORKINGDIR=C:\Users\Maria\Desktop\Codigo\Logica digital\deodificadorBCD
+LICENSE=ISE
+USER_INFO=212516190_0_0_764
